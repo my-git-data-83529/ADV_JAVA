@@ -1,0 +1,41 @@
+package com.sunbeam.daos;
+
+import com.sunbeam.pojos.User;
+
+public class UserDao implements AutoCloseable {
+	
+	User findByEmail(String email) throws Exception {
+		return null;
+	}
+
+	User findById(int id) throws Exception {
+		return null;
+	}
+
+	int save(User user) throws Exception {
+		return 0;
+	}
+
+	int updateStatus(int userId, boolean voted) throws Exception {
+		return 0;
+	}
+
+	int updatePassword(int userId, String newPassword) throws Exception {
+		return 0;
+	}
+
+	int deleteById(int id) throws Exception {
+		return 0;
+	}
+
+	int update(User user) throws Exception {
+		return 0;
+	}
+
+	@Override
+	public void close() throws Exception {
+		
+	}
+
+
+}
